@@ -26,7 +26,6 @@
     <!-- End heatmap.com snippet Code -->
     <style>
         body {
-            font-family: Arial, sans-serif;
             background-image: url('background.jpg');
             background-size: cover;
             background-position: center;
@@ -48,6 +47,7 @@
             max-width: 900px;
             width: 90%;
             margin-top: -5vh;
+            max-width: 800px;
         }
         h1 {
             color: #2c3e50;
@@ -76,6 +76,31 @@
         a:hover {
             text-decoration: underline;
         }
+        .loader-container {
+            margin-top: 2rem;
+            max-width: 100%;
+            text-align: center;
+        }
+        .loader {
+            position: relative;
+            width: 100%;
+            height: 30px;
+            background-color: #e0e0e0;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+        .loader-bar {
+            position: absolute;
+            height: 100%;
+            width: 80%; /* 80% progress */
+            background-color: #4caf50;
+            transition: width 0.5s ease-in-out;
+        }
+        .loader-text {
+            margin-top: 10px;
+            font-size: 16px;
+            color: #555;
+        }
     </style>
 </head>
 <body>
@@ -86,6 +111,12 @@
         <div class="contact-info">
             <p><strong>GPS Address:</strong> GA-247-7927</p>
             <p><strong>Email:</strong> <a href="mailto:info@equatorcommodities.com">info@equatorcommodities.com</a></p>
+        </div>
+        <div class="loader-container">
+            <div class="loader">
+                <div class="loader-bar"></div>
+            </div>
+            <div class="loader-text">Loading... 80%</div>
         </div>
     </div>
 </body>
