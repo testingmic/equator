@@ -116,7 +116,7 @@
             <div class="loader">
                 <div class="loader-bar"></div>
             </div>
-            <div class="loader-text">Loading... 80%</div>
+            <div class="loader-text">Loading... 85%</div>
         </div>
     </div>
 </body>
