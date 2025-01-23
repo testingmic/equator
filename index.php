@@ -109,8 +109,8 @@
         <h1>Website Under Construction</h1>
         <p>We're working hard to bring you an amazing website. Stay tuned!</p>
         <div class="contact-info">
-            <p><strong>GPS Address:</strong> GA-247-7927</p>
-            <p><strong>Email:</strong> <a href="mailto:info@equatorcommodities.com">info@equatorcommodities.com</a></p>
+            <!-- <p><strong>GPS Address:</strong> GA-247-7927</p> -->
+            <p><strong>Email:</strong> <a href="mailto:info@equatorcommoditiesgh.com">info@equatorcommoditiesgh.com</a></p>
         </div>
         <div class="loader-container">
             <div class="loader">
