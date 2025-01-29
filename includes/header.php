@@ -60,24 +60,70 @@ $websiteName = "Equator Commodities";
     <link href="assets/css/module-css/education-details.css" rel="stylesheet">
     <!-- heatmap.com snippet -->
     <script>
-    (function() {      
-        var _heatmap_paq = window._heatmap_paq || [];
-        var heatUrl = window.heatUrl = "https://dashboard.heatmap.com/";
-        function heatLoader(url, item) {
-        if(typeof handleSinglePagedWebsite !== 'undefined' && item == 'prep') return true;
-        var s = document.createElement("script"); s.type = "text/javascript"; 
-        s.src = url; s.async = false; s.defer = true; document.head.appendChild(s);
-        }
-        heatLoader(heatUrl+"preprocessor.min.js?sid=2785", "prep");
-        setTimeout(function() {
-        if(typeof _heatmap_paq !== "object" || _heatmap_paq.length == 0) {     
-            _heatmap_paq.push(["setTrackerUrl", heatUrl+"heatmap.php"]);
-            heatLoader(heatUrl+"heatmap-light.min.js?sid=2785", "heat");
-        }
-        }, 1000);
-    })();
+        (function() {
+            var _heatmap_paq = window._heatmap_paq || [];
+            var heatUrl = window.heatUrl = "https://dashboard.heatmap.com/";
+
+            function heatLoader(url, item) {
+                if (typeof handleSinglePagedWebsite !== 'undefined' && item == 'prep') return true;
+                var s = document.createElement("script");
+                s.type = "text/javascript";
+                s.src = url;
+                s.async = false;
+                s.defer = true;
+                document.head.appendChild(s);
+            }
+            heatLoader(heatUrl + "preprocessor.min.js?sid=2785", "prep");
+            setTimeout(function() {
+                if (typeof _heatmap_paq !== "object" || _heatmap_paq.length == 0) {
+                    _heatmap_paq.push(["setTrackerUrl", heatUrl + "heatmap.php"]);
+                    heatLoader(heatUrl + "heatmap-light.min.js?sid=2785", "heat");
+                }
+            }, 1000);
+        })();
     </script>
     <!-- End heatmap.com snippet Code -->
+    <style>
+        img.site-logo {
+            max-width: 250px;
+        }
+
+        .subscribe-section .inner-container,
+        .header-style-five .header-top {
+            background: #1360aa;
+        }
+
+        .about-style-two .tab-btns li.active-btn {
+            background: #0495e9;
+        }
+
+        .about-style-two.dark-section .tab-btns li i {
+            color: #fff;
+            background: #1860a5;
+        }
+
+        .sec-title h2 span {
+            color: #0d81cf;
+        }
+
+        .cta-section .inner-container {
+            background: #066fbe;
+        }
+
+        .account-block-one .inner-box .icon-box {
+            background: #0584d4;
+        }
+
+        .contact-section .single-info .icon-box,
+        .theme-btn.btn-one,
+        .faq-section .accordion-box .accordion .acc-btn.active {
+            background: #0887d6;
+        }
+
+        .menu-area .mobile-nav-toggler {
+            background: #0885d5;
+        }
+    </style>
 </head>
 
 
@@ -155,7 +201,7 @@ $websiteName = "Equator Commodities";
             <div class="header-lower">
                 <div class="large-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="/"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="/"><img class="site-logo" src="assets/images/logo.png" alt=""></a></figure>
                         <div class="menu-area">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -185,7 +231,7 @@ $websiteName = "Equator Commodities";
             <div class="sticky-header">
                 <div class="large-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="/"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="/"><img class="site-logo" src="assets/images/logo.png" alt=""></a></figure>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
                             </nav>
@@ -204,7 +250,7 @@ $websiteName = "Equator Commodities";
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
             <nav class="menu-box">
-                <div class="nav-logo"><a href="/"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="/"><img src="assets/images/logo.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
