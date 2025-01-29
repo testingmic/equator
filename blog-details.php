@@ -12,7 +12,7 @@ $blogDetailsPage = true;
         <div class="content-box">
             <h1>Book Details</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>Book Details</li>
             </ul>
         </div>
@@ -206,34 +206,5 @@ $blogDetailsPage = true;
     </div>
 </section>
 <!-- testimonial-style-two end -->
-
-
-<!-- subscribe-section -->
-<section class="subscribe-section">
-    <div class="bg-color"></div>
-    <div class="auto-container">
-        <div class="inner-container">
-            <div class="shape" style="background-image: url(assets/images/shape/shape-5.png);"></div>
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 text-column">
-                    <div class="text-box">
-                        <h2>Subscribe for latest update</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 form-column">
-                    <div class="form-inner">
-                        <form method="post" action="https://azim.hostlin.com/Fortradex/contact.html">
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Email Address" required>
-                                <button type="submit" class="theme-btn btn-one">Subscribe<i class="icon-26"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- subscribe-section end -->
 
 <?php include 'includes/footer.php'; ?>

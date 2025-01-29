@@ -3,6 +3,7 @@ global $aboutPage;
 $aboutPage = true; 
 ?>
 <?php include 'includes/header.php'; ?>
+<?php include 'includes/content.php'; ?>
 
 <!-- page-title -->
 <section class="page-title centred pt_90 pb_0">
@@ -12,7 +13,7 @@ $aboutPage = true;
         <div class="content-box">
             <h1>About Us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>About Us</li>
             </ul>
         </div>
@@ -32,44 +33,7 @@ $aboutPage = true;
                             <span class="sub-title mb_14">About US</span>
                             <h2>Our reputation is built on <span>Experience</span></h2>
                         </div>
-                        <ul class="accordion-box">
-                            <li class="accordion block active-block">
-                                <div class="acc-btn active">
-                                    <div class="icon-box"><i class="icon-29"></i></div>
-                                    <h3>Who we are</h3>
-                                </div>
-                                <div class="acc-content current">
-                                    <div class="content">
-                                        <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
-                                        <a href="faq.html">Learn More</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="accordion block">
-                                <div class="acc-btn">
-                                    <div class="icon-box"><i class="icon-29"></i></div>
-                                    <h3>What we do</h3>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
-                                        <a href="faq.html">Learn More</a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="accordion block">
-                                <div class="acc-btn">
-                                    <div class="icon-box"><i class="icon-29"></i></div>
-                                    <h3>How it works</h3>
-                                </div>
-                                <div class="acc-content">
-                                    <div class="content">
-                                        <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
-                                        <a href="faq.html">Learn More</a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                        <?php echo who_we_are_content(); ?>
                     </div>
                 </div>
             </div>
@@ -99,7 +63,6 @@ $aboutPage = true;
             <div class="shape" style="background-image: url(assets/images/shape/shape-16.png);"></div>
             <div class="icon-box"><img src="assets/images/icons/coin-1.png" alt=""></div>
             <h2><span>Trade for</span> less, <span>with</span> low prices <br /><span>and</span> transparent fees</h2>
-            <div class="btn-box"><a href="index-3.html" class="theme-btn btn-one">Try Demo Trading</a></div>
         </div>
     </div>
 </section>
@@ -250,34 +213,5 @@ $aboutPage = true;
     </div>
 </section>
 <!-- testimonial-section end -->
-
-
-<!-- subscribe-section -->
-<section class="subscribe-section">
-    <div class="bg-color"></div>
-    <div class="auto-container">
-        <div class="inner-container">
-            <div class="shape" style="background-image: url(assets/images/shape/shape-5.png);"></div>
-            <div class="row align-items-center">
-                <div class="col-lg-6 col-md-12 col-sm-12 text-column">
-                    <div class="text-box">
-                        <h2>Subscribe for latest update</h2>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-12 col-sm-12 form-column">
-                    <div class="form-inner">
-                        <form method="post" action="https://azim.hostlin.com/Fortradex/contact.html">
-                            <div class="form-group">
-                                <input type="email" name="email" placeholder="Email Address" required>
-                                <button type="submit" class="theme-btn btn-one">Subscribe<i class="icon-26"></i></button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- subscribe-section end -->
 
 <?php include 'includes/footer.php'; ?>

@@ -12,7 +12,7 @@ $contactPage = true;
         <div class="content-box">
             <h1>Contact Us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.html">Home</a></li>
+                <li><a href="index.php">Home</a></li>
                 <li>Contact Us</li>
             </ul>
         </div>
@@ -22,7 +22,7 @@ $contactPage = true;
 
 
 <!-- contact-section -->
-<section class="contact-section pt_90 pb_100">
+<section class="contact-section pt_90">
     <div class="auto-container">
         <div class="info-inner pb_25">
             <div class="row clearfix">
