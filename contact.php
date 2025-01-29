@@ -36,9 +36,10 @@ $contactPage = true;
                     <div class="single-info">
                         <div class="icon-box"><i class="icon-45"></i></div>
                         <h4>Corporate Office</h4>
-                        <p>0233 Brisbane Cir. Shiloh,Australia 81063</p>
+                        <p><?= $address; ?></p>
                     </div>
                 </div>
+
                 <div class="col-lg-4 col-md-6 col-sm-12 info-column">
                     <div class="single-info">
                         <div class="icon-box"><i class="icon-46"></i></div>

@@ -2,7 +2,11 @@
 $email = "info@equatorcommoditiesgh.com";
 $phone = "+233 249 200 381";
 $phone2 = "+233 240 450 999";
-$address = "Accra, Ghana";
+$address = "9th Floor, Wesley Towers 
+Ambassadorial Enclave
+Cruickshank Road
+Ridge - Accra
+Ghana";
 $websiteName = "Equator Commodities";
 ?>
 <!DOCTYPE html>
