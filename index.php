@@ -16,7 +16,13 @@ $homePage = true;
         border-radius: 10px;
         height: 400px !important;
     }
+    @media (max-width: 768px) {
+        .hide-on-mobile {
+            display: none;
+        }
+    }
 </style>
+
 
 <!-- trading-style-three -->
 <section class="trading-style-three pt_20 pb_20 alternat-2">
@@ -40,12 +46,13 @@ $homePage = true;
                             <div class="content-box">
                                 <h2>Cocoa Purchasing</h2>
                                 <p>We source and purchase cocoa beans directly from farmers in cocoa-producing regions across Ghana. 
-                                    Our dedicated field teams ensure that only the finest beans are selected through rigorous quality assessments.</p>
+                                    Our dedicated field teams ensure that only the finest beans are selected through rigorous quality assessments.
+                                    Farmers are supported with fair pricing and timely payments, fostering trust and sustainability within the industry. Once purchased, the beans are weighed, bagged, and prepared for transportation.</p>
                                 <div class="btn-box">
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="col-lg-6 col-md-12 col-sm-12 hide-on-mobile image-column">
                             <div class="image-box ml_150">
                                 <figure class="image"><img src="assets/images/banner-item.jpg" alt=""></figure>
                             </div>
@@ -66,7 +73,7 @@ $homePage = true;
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="col-lg-6 col-md-12 col-sm-12 hide-on-mobile image-column">
                             <div class="image-box ml_150">
                                 <figure class="image"><img src="assets/images/banner-item-2.jpg" alt=""></figure>
                             </div>
@@ -87,7 +94,7 @@ $homePage = true;
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                        <div class="col-lg-6 col-md-12 col-sm-12 hide-on-mobile image-column">
                             <div class="image-box ml_150">
                                 <figure class="image"><img src="assets/images/banner-item-3.jpg" alt=""></figure>
                             </div>
@@ -109,7 +116,7 @@ $homePage = true;
                 <div class="video_block_one">
                     <div class="z_1 p_relative centred">
                         <figure class="image-box cocoa-image">
-                            <img src="assets/images/cocoa-beans.jpg" alt="">
+                            <img class="hide-on-mobile" src="assets/images/cocoa-beans.jpg" alt="">
                         </figure>
                         <div class="video-content">
                         </div>
