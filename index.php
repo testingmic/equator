@@ -39,7 +39,8 @@ $homePage = true;
                         <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                             <div class="content-box">
                                 <h2>Cocoa Purchasing</h2>
-                                <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
+                                <p>We source and purchase cocoa beans directly from farmers in cocoa-producing regions across Ghana. 
+                                    Our dedicated field teams ensure that only the finest beans are selected through rigorous quality assessments.</p>
                                 <div class="btn-box">
                                 </div>
                             </div>
@@ -60,7 +61,7 @@ $homePage = true;
                         <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                             <div class="content-box">
                                 <h2>Cocoa Evacuation & Transportation</h2>
-                                <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
+                                <p>After purchase, the cocoa beans are carefully evacuated from farming communities and transported to designated warehouses and Take Over Centres of the Cocoa Marketing Company (CMC). We utilize a robust logistics network to ensure that the beans are moved efficiently while maintaining their quality.</p>
                                 <div class="btn-box">
                                 </div>
                             </div>
@@ -81,7 +82,7 @@ $homePage = true;
                         <div class="col-lg-6 col-md-12 col-sm-12 content-column">
                             <div class="content-box">
                                 <h2>Warehousing & Storage</h2>
-                                <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
+                                <p>Our warehousing and storage facilities are equipped to preserve the quality and freshness of cocoa beans before they are processed or shipped. We adhere to strict storage protocols, including temperature and humidity control, to prevent spoilage and contamination.</p>
                                 <div class="btn-box">
                                 </div>
                             </div>
