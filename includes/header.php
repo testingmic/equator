@@ -1,7 +1,8 @@
 <?php
 $email = "info@equatorcommoditiesgh.com";
-$phone = "+233 54 000 0000";
-$address = "Chicago 12, Melborne City, USA";
+$phone = "+233 249 200 381";
+$phone2 = "+233 240 450 999";
+$address = "Chicago 12, Melborne City, Accra, Ghana";
 $websiteName = "Equator Commodities";
 ?>
 <!DOCTYPE html>
@@ -98,7 +99,7 @@ $websiteName = "Equator Commodities";
                             </span>
 
                             <span data-text-preloader="r" class="letters-loading">
-                                
+
                             </span>
 
                         </div>
@@ -119,8 +120,11 @@ $websiteName = "Equator Commodities";
                             <div class="support-box">
                                 <div class="icon-box"><i class="icon-07"></i></div>
                                 <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a>
+                                <span style="padding-left: 15px;">
+                                    <a href="tel:<?php echo $phone2; ?>"><?php echo $phone2; ?></a>
+                                </span>
                             </div>
-                            
+
                         </div>
                         <ul class="info-list clearfix">
                             <li><i class="icon-27"></i><?= $address ?></li>
@@ -132,7 +136,7 @@ $websiteName = "Equator Commodities";
             <div class="header-lower">
                 <div class="large-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></figure>
                         <div class="menu-area">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -153,8 +157,6 @@ $websiteName = "Equator Commodities";
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <!-- <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Open Account</a></div> -->
                         </div>
                     </div>
                 </div>
@@ -170,8 +172,6 @@ $websiteName = "Equator Commodities";
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <!-- <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Open Account</a></div> -->
                         </div>
                     </div>
                 </div>
@@ -185,7 +185,7 @@ $websiteName = "Equator Commodities";
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.html"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
@@ -197,11 +197,6 @@ $websiteName = "Equator Commodities";
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
-                        <!-- <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li> -->
                     </ul>
                 </div>
             </nav>

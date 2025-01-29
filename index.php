@@ -41,8 +41,6 @@ $homePage = true;
                                 <h2>Cocoa Purchasing</h2>
                                 <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
                                 <div class="btn-box">
-                                    <!-- <a href="account-details.html" class="theme-btn btn-one mr_15">Start Trading Now</a>
-                                    <a href="index-5.html" class="theme-btn btn-two">Try Demo Trading</a> -->
                                 </div>
                             </div>
                         </div>
@@ -64,8 +62,6 @@ $homePage = true;
                                 <h2>Cocoa Evacuation & Transportation</h2>
                                 <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
                                 <div class="btn-box">
-                                    <!-- <a href="account-details.html" class="theme-btn btn-one mr_15">Start Trading Now</a>
-                                    <a href="index-5.html" class="theme-btn btn-two">Try Demo Trading</a> -->
                                 </div>
                             </div>
                         </div>
@@ -87,8 +83,6 @@ $homePage = true;
                                 <h2>Warehousing & Storage</h2>
                                 <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
                                 <div class="btn-box">
-                                    <!-- <a href="account-details.html" class="theme-btn btn-one mr_15">Start Trading Now</a>
-                                    <a href="index-5.html" class="theme-btn btn-two">Try Demo Trading</a> -->
                                 </div>
                             </div>
                         </div>
@@ -147,7 +141,7 @@ $homePage = true;
     <div class="auto-container">
         <div class="sec-title pb_60 light centred">
             <span class="sub-title mb_14">Performance</span>
-            <h2>Performance Index</h2>
+            <!-- <h2>Performance Index</h2> -->
         </div>
         <div class="tabs-box">
             <div class="row clearfix">

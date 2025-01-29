@@ -52,6 +52,7 @@ $contactPage = true;
                         <div class="icon-box"><i class="icon-47"></i></div>
                         <h4>Phone Number</h4>
                         <p><a href="tel:<?= $phone; ?>"><?= $phone; ?></a></p>
+                        <p><a href="tel:<?= $phone2; ?>"><?= $phone2; ?></a></p>
                     </div>
                 </div>
             </div>
