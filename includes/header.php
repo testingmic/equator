@@ -1,3 +1,9 @@
+<?php
+$email = "info@equatorcommoditiesgh.com";
+$phone = "+233 54 000 0000";
+$address = "Chicago 12, Melborne City, USA";
+$websiteName = "Equator Commodities";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,7 +12,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
-    <title>ForTradex - HTML 5 Template Preview</title>
+    <title><?php echo $websiteName; ?></title>
 
     <!-- Fav Icon -->
     <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
@@ -52,17 +58,28 @@
 
     <div class="boxed_wrapper home_5 ltr">
 
-
         <!-- preloader -->
-        <div class="loader-wrap">
+        <div hidden class="loader-wrap">
             <div class="preloader">
                 <div class="preloader-close"><i class="fal fa-times"></i></div>
                 <div id="handle-preloader" class="handle-preloader">
                     <div class="animation-preloader">
                         <div class="spinner"></div>
                         <div class="txt-loading">
-                            <span data-text-preloader="f" class="letters-loading">
-                                f
+                            <span data-text-preloader="e" class="letters-loading">
+                                e
+                            </span>
+                            <span data-text-preloader="q" class="letters-loading">
+                                q
+                            </span>
+                            <span data-text-preloader="u" class="letters-loading">
+                                u
+                            </span>
+                            <span data-text-preloader="a" class="letters-loading">
+                                a
+                            </span>
+                            <span data-text-preloader="t" class="letters-loading">
+                                t
                             </span>
                             <span data-text-preloader="o" class="letters-loading">
                                 o
@@ -70,38 +87,17 @@
                             <span data-text-preloader="r" class="letters-loading">
                                 r
                             </span>
-                            <span data-text-preloader="t" class="letters-loading">
-                                t
-                            </span>
+
                             <span data-text-preloader="r" class="letters-loading">
-                                r
+                                
                             </span>
-                            <span data-text-preloader="a" class="letters-loading">
-                                a
-                            </span>
-                            <span data-text-preloader="d" class="letters-loading">
-                                d
-                            </span>
-                            <span data-text-preloader="e" class="letters-loading">
-                                e
-                            </span>
-                            <span data-text-preloader="x" class="letters-loading">
-                                x
-                            </span>
+
                         </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- preloader end -->
-
-
-        <!-- page-direction -->
-        <div class="page_direction">
-            <div class="demo-rtl direction_switch"><button class="rtl">RTL</button></div>
-            <div class="demo-ltr direction_switch"><button class="ltr">LTR</button></div>
-        </div>
-        <!-- page-direction end -->
 
 
         <!-- main header -->
@@ -149,62 +145,18 @@
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="current dropdown"><a href="index.html">Home</a>
-                                            <ul>
-                                                <li><a href="index.html">Home One</a></li>
-                                                <li><a href="index-2.html">Home Two</a></li>
-                                                <li><a href="index-3.html">Home Three</a></li>
-                                                <li><a href="index-4.html">Home Four</a></li>
-                                                <li><a href="index-5.html">Home Five</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="index.html">Trading</a>
-                                            <ul>
-                                                <li><a href="platform.html">Platform</a></li>
-                                                <li><a href="account.html">Account</a></li>
-                                                <li><a href="account-details.html">Account Deatils</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="index.html">Market</a>
-                                            <ul>
-                                                <li><a href="markets.html">Markets Place</a></li>
-                                                <li><a href="markets-details.html">Markets Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="index.html">About Us</a>
-                                            <ul>
-                                                <li class="dropdown"><a href="index.html">Education</a>
-                                                    <ul>
-                                                        <li><a href="education.html">Education</a></li>
-                                                        <li><a href="education-details.html">Book Details</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li class="dropdown"><a href="index.html">Team</a>
-                                                    <ul>
-                                                        <li><a href="team.html">Our Expert Team</a></li>
-                                                        <li><a href="team-details.html">Team Deatils</a></li>
-                                                    </ul>
-                                                </li>
-                                                <li><a href="about.html">About Us</a></li>
-                                                <li><a href="faq.html">FAQ's</a></li>
-                                                <li><a href="error.html">404</a></li>
-                                            </ul>
-                                        </li>
-                                        <li class="dropdown"><a href="index.html">Blog</a>
-                                            <ul>
-                                                <li><a href="blog.html">Blog Grid</a></li>
-                                                <li><a href="blog-2.html">Blog Standard</a></li>
-                                                <li><a href="blog-details.html">Blog Details</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="contact.html">Contact</a></li>
+                                        <li class="dropdown"><a href="index.php">Home</a></li>
+                                        <li class="dropdown"><a href="about.php">About Us</a></li>
+                                        <li class="dropdown"><a href="services.php">Services</a></li>
+                                        <li class="dropdown"><a href="blog.php">Blog</a></li>
+                                        <li class="dropdown"><a href="contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Open Account</a></div>
+                            <!-- <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
+                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Open Account</a></div> -->
                         </div>
                     </div>
                 </div>
@@ -214,15 +166,14 @@
             <div class="sticky-header">
                 <div class="large-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="index.html"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></figure>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
-                                <!--Keep This Empty / Menu will come through Javascript-->
                             </nav>
                         </div>
                         <div class="menu-right-content">
-                            <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
-                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Open Account</a></div>
+                            <!-- <div class="search-btn mr_25"><button class="search-toggler"><i class="icon-10"></i></button></div>
+                            <div class="btn-box"><a href="index-2.html" class="theme-btn btn-one">Open Account</a></div> -->
                         </div>
                     </div>
                 </div>
@@ -241,18 +192,18 @@
                 <div class="contact-info">
                     <h4>Contact Info</h4>
                     <ul>
-                        <li>Chicago 12, Melborne City, USA</li>
-                        <li><a href="tel:+8801682648101">+88 01682648101</a></li>
-                        <li><a href="mailto:info@example.com">info@example.com</a></li>
+                        <li><?php echo $address; ?></li>
+                        <li><a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a></li>
+                        <li><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
                     </ul>
                 </div>
                 <div class="social-links">
                     <ul class="clearfix">
-                        <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
+                        <!-- <li><a href="index.html"><span class="fab fa-twitter"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-facebook-square"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-pinterest-p"></span></a></li>
                         <li><a href="index.html"><span class="fab fa-instagram"></span></a></li>
-                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li>
+                        <li><a href="index.html"><span class="fab fa-youtube"></span></a></li> -->
                     </ul>
                 </div>
             </nav>
