@@ -78,4 +78,26 @@ function who_we_are_content() {
 
     </ul>';
 }
+
+// products and services content
+function products_and_services_content() {
+    return [
+        [
+            'title' => 'Internal Marketing of Cocoa',
+            'description' => '<p>Our core activity is the purchase of high-quality cocoa beans and their delivery to the Take Over Centres of the Cocoa Marketing Company (CMC), the authorized department of the Ghana Cocoa Board. Through our expertise and industry connections, we facilitate efficient cocoa trading, ensuring that both local and international markets receive premium-grade cocoa.</p>',
+            'image' => 'assets/images/products/internal-marketing.jpg'
+        ],
+        [
+            'title' => 'External Marketing of Cocoa',
+            'description' => '<p>In addition to serving the domestic market, we engage in external marketing for international clients, including cocoa processing companies, chocolate manufacturers, and global traders. These transactions are handled in collaboration with CMC, ensuring compliance with international standards and fair trade policies. Our strong relationships with global partners allow us to provide seamless trading solutions for our international clientele.</p>',
+            'image' => 'assets/images/products/external-marketing.jpg'
+        ],
+        [
+            'title' => 'Supply of Agrochemicals',
+            'description' => '<p>As part of our commitment to improving cocoa production, we formulate, manufacture, and import agrochemicals designed for cocoa farming and other food crops. Our agrochemicals undergo rigorous research and testing with the Cocoa Research Institute of Ghana (CRIG), a department of the Ghana Cocoa Board. After obtaining the necessary approvals, we supply high-quality fertilizers, pesticides, and other essential farming inputs to enhance productivity and sustainability in the agricultural sector.</p>
+            <p>Our company also offers custom-formulated agrochemicals tailored to meet specific farming needs. If you require specialized agricultural solutions, please contact us to discuss your requirements.</p>',
+            'image' => 'assets/images/products/agrochemicals.jpg'
+        ]
+    ];
+}
 ?>

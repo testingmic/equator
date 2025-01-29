@@ -136,8 +136,8 @@ $homePage = true;
     </div>
     <div class="auto-container">
         <div class="sec-title pb_60 light centred">
-            <span class="sub-title mb_14">Platforms</span>
-            <h2>Trading Platforms</h2>
+            <span class="sub-title mb_14">Performance</span>
+            <h2>Performance Index</h2>
         </div>
         <div class="tabs-box">
             <div class="row clearfix">
@@ -191,70 +191,28 @@ $homePage = true;
 <section class="testimonial-style-two pt_70 pb_70">
     <div class="auto-container">
         <div class="sec-title centred pb_60">
-            <span class="sub-title mb_14">Testimonials</span>
-            <h2>Love from Users</h2>
+            <span class="sub-title mb_14">Products & Services</span>
+            <h2>Our Products and Services</h2>
         </div>
         <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
-                <div class="testimonial-block-one">
-                    <div class="inner-box">
-                        <figure class="clients-logo"><a href="index-5.html"><img src="assets/images/clients/clients-14.png" alt=""></a></figure>
-                        <ul class="rating">
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
-                        <div class="author-box">
-                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-4.png" alt=""></figure>
-                            <h4>Brooklyn Simmons</h4>
-                            <span class="designation">Nursing Assistant</span>
+
+            <?php foreach (products_and_services_content() as $service) { ?>
+                <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
+                    <div class="testimonial-block-one">
+                        <div class="inner-box">
+                            <figure class="clients-logo">
+                                <h4>
+                                    <a href="services.php">
+                                        <?= $service['title'] ?>
+                                    </a>
+                                </h4>
+                            </figure>
+                            <div><?= substr($service['description'], 0, 320) ?>...</div>
+
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
-                <div class="testimonial-block-one">
-                    <div class="inner-box">
-                        <figure class="clients-logo"><a href="index-5.html"><img src="assets/images/clients/clients-15.png" alt=""></a></figure>
-                        <ul class="rating">
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
-                        <div class="author-box">
-                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-5.png" alt=""></figure>
-                            <h4>Guy Hawkins</h4>
-                            <span class="designation">Web Designer</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
-                <div class="testimonial-block-one">
-                    <div class="inner-box">
-                        <figure class="clients-logo"><a href="index-5.html"><img src="assets/images/clients/clients-16.png" alt=""></a></figure>
-                        <ul class="rating">
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                            <li><i class="icon-37"></i></li>
-                        </ul>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
-                        <div class="author-box">
-                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-6.png" alt=""></figure>
-                            <h4>Esther Howard</h4>
-                            <span class="designation">President of Sales</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <?php } ?>
         </div>
     </div>
 </section>
