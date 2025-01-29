@@ -2,7 +2,7 @@
 $email = "info@equatorcommoditiesgh.com";
 $phone = "+233 249 200 381";
 $phone2 = "+233 240 450 999";
-$address = "Chicago 12, Melborne City, Accra, Ghana";
+$address = "Accra, Ghana";
 $websiteName = "Equator Commodities";
 ?>
 <!DOCTYPE html>
