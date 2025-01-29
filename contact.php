@@ -1,8 +1,14 @@
-<?php 
+<?php
 global $contactPage;
-$contactPage = true; 
+$contactPage = true;
 ?>
 <?php include 'includes/header.php'; ?>
+
+<style>
+    .required {
+        color: red !important;
+    }
+</style>
 
 <!-- page-title -->
 <section class="page-title centred pt_90 pb_0">

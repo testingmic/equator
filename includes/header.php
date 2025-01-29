@@ -146,7 +146,7 @@ $websiteName = "Equator Commodities";
                                         <li class="<?= !empty($homePage) ? 'current' : '' ?> dropdown"><a href="index.php">Home</a></li>
                                         <li class="<?= !empty($aboutPage) ? 'current' : '' ?> dropdown"><a href="about.php">About Us</a></li>
                                         <li class="<?= !empty($servicesPage) ? 'current' : '' ?> dropdown"><a href="services.php">Services</a></li>
-                                        <li class="<?= !empty($blogPage) ? 'current' : '' ?> dropdown"><a href="blog.php">Blog</a></li>
+                                        <!-- <li class="<?= !empty($blogPage) ? 'current' : '' ?> dropdown"><a href="blog.php">Blog</a></li> -->
                                         <li class="<?= !empty($contactPage) ? 'current' : '' ?> dropdown"><a href="contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>

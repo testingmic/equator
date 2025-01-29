@@ -80,15 +80,15 @@ $aboutPage = true;
                             <div class="account-block-one pb_1 wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-01"></i></div>
-                                    <h3><a href="account-details.html">Professional Account</a></h3>
-                                    <p>Traders with professional accounts gain access to a wide range of benefits, including enhanced trading platforms</p>
+                                    <h3><a href="#">Farmer Training and Support</a></h3>
+                                    <p>We provide education and training programs to farmers on best agricultural practices, sustainable farming methods, and financial literacy. This helps improve yield, increase profitability, and promote eco-friendly farming techniques.</p>
                                 </div>
                             </div>
                             <div class="account-block-one wow fadeInUp animated animated" data-wow-delay="00ms" data-wow-duration="1500ms">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-03"></i></div>
-                                    <h3><a href="account-details.html">Demo Account</a></h3>
-                                    <p>Trading demo accounts are particularly valuable for novice traders who are new to the world of investing.</p>
+                                    <h3><a href="#">Youth and Women Empowerment</a></h3>
+                                    <p>We support programs aimed at empowering women and young people in cocoa farming communities. By offering skills training and financial assistance, we help create employment opportunities and encourage the next generation to participate in the cocoa industry.</p>
                                 </div>
                             </div>
                         </div>
@@ -96,15 +96,15 @@ $aboutPage = true;
                             <div class="account-block-one pb_1 wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-02"></i></div>
-                                    <h3><a href="account-details.html">Overview Account</a></h3>
-                                    <p>The primary feature of a trading overview account is its ability to aggregate information from multiple accounts and</p>
+                                    <h3><a href="#">Environmental Sustainability</a></h3>
+                                    <p>As part of our commitment to sustainability, we advocate for responsible land use and reforestation initiatives. We work closely with farmers to encourage agroforestry practices that maintain soil fertility and reduce the environmental impact of cocoa farming.</p>
                                 </div>
                             </div>
                             <div class="account-block-one wow fadeInUp animated animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                 <div class="inner-box">
                                     <div class="icon-box"><i class="icon-04"></i></div>
-                                    <h3><a href="account-details.html">Islamic Account</a></h3>
-                                    <p>Islamic accounts also adhere to ethical guidelines that prohibit trading certain financial instruments deemed</p>
+                                    <h3><a href="#">Community Development</a></h3>
+                                    <p>We invest in community projects, such as building schools, providing clean water, and supporting healthcare initiatives in cocoa-producing regions. These efforts help improve the overall well-being of farmers and their families, creating a more sustainable cocoa industry.</p>
                                 </div>
                             </div>
                         </div>
@@ -115,11 +115,10 @@ $aboutPage = true;
                 <div class="content_block_eight">
                     <div class="content-box ml_60">
                         <div class="sec-title pb_20">
-                            <span class="sub-title mb_14">Accounts</span>
-                            <h2>Level up your trading with <span>Account</span></h2>
+                            <h2>Corporate Social Responsibility <span>(CSR)</span></h2>
                         </div>
                         <div class="text-box">
-                            <p>Not sure which is the right FOREX com platform for you? Check out our handy platform comparison table which will show you all the differences.</p>
+                            <p>We believe in giving back to the communities that support our business. Our Corporate Social Responsibility (CSR) initiatives are focused on sustainable cocoa farming, farmer empowerment, and community development.</p>
                             <ul class="list-style-one mb_40 clearfix">
                                 <li>Trade with one tap, anywhere, anytime</li>
                                 <li>Seamlessly manage your account and portfolio</li>
@@ -134,84 +133,5 @@ $aboutPage = true;
     </div>
 </section>
 <!-- account-style-three end -->
-
-
-<!-- apps-style-two -->
-<section class="apps-style-two pt_150 pb_150">
-    <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-18.png);"></div>
-    <figure class="image-layer"><img src="assets/images/resource/mockup-1.png" alt=""></figure>
-    <div class="auto-container">
-        <div class="row align-items-center">
-            <div class="col-lg-5 col-md-12 col-sm-12 content-column">
-                <div class="content_block_four">
-                    <div class="content-box ml_80">
-                        <div class="sec-title light pb_40">
-                            <span class="sub-title mb_14">Download App</span>
-                            <h2>Download Trading App</h2>
-                            <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
-                        </div>
-                        <div class="btn-box">
-                            <a href="about.html" class="apple-store">
-                                <img src="assets/images/icons/icon-7.png" alt="">
-                                <span>Download on</span>
-                                App Store
-                            </a>
-                            <a href="about.html" class="play-store">
-                                <img src="assets/images/icons/icon-8.png" alt="">
-                                <span>Get it on</span>
-                                Google Play
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- apps-style-two end -->
-
-
-<!-- testimonial-section -->
-<section class="testimonial-section centred pt_100 pb_90">
-    <div class="auto-container">
-        <div class="sec-title pb_60">
-            <span class="sub-title mb_14">Testimonials</span>
-            <h2>Love from Clients</h2>
-        </div>
-        <div class="inner-container">
-            <div class="thumb-box">
-                <div class="thumb thumb-1"><img src="assets/images/resource/thumb-1.png" alt=""></div>
-                <div class="thumb thumb-2"><img src="assets/images/resource/thumb-2.png" alt=""></div>
-                <div class="thumb thumb-3"><img src="assets/images/resource/thumb-3.png" alt=""></div>
-                <div class="thumb thumb-4"><img src="assets/images/resource/thumb-4.png" alt=""></div>
-                <div class="thumb thumb-5"><img src="assets/images/resource/thumb-5.png" alt=""></div>
-                <div class="thumb thumb-6"><img src="assets/images/resource/thumb-6.png" alt=""></div>
-                <div class="thumb thumb-7"><img src="assets/images/resource/thumb-7.png" alt=""></div>
-                <div class="thumb thumb-8"><img src="assets/images/resource/thumb-8.png" alt=""></div>
-            </div>
-            <div class="single-item-carousel owl-carousel owl-theme owl-nav-none dots-style-one">
-                <div class="testimonial-content">
-                    <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
-                    <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
-                    <h3>Roger Federal</h3>
-                    <span class="designation">Uses Saxolvestor</span>
-                </div>
-                <div class="testimonial-content">
-                    <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
-                    <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
-                    <h3>Roger Federal</h3>
-                    <span class="designation">Uses Saxolvestor</span>
-                </div>
-                <div class="testimonial-content">
-                    <h2>“Crypto investor makes my investment work efficient and pleasant”</h2>
-                    <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm. Our cutting-edge app blends sophisticated functionalityanywhere.</p>
-                    <h3>Roger Federal</h3>
-                    <span class="designation">Uses Saxolvestor</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- testimonial-section end -->
 
 <?php include 'includes/footer.php'; ?>
