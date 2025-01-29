@@ -1,123 +1,1736 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon - Equator Commodities</title>
-    <!-- heatmap.com snippet -->
-    <script>
-    (function() {      
-        var _heatmap_paq = window._heatmap_paq || [];
-        var heatUrl = window.heatUrl = "https://dashboard.heatmap.com/";
-        function heatLoader(url, item) {
-        if(typeof handleSinglePagedWebsite !== 'undefined' && item == 'prep') return true;
-        var s = document.createElement("script"); s.type = "text/javascript"; 
-        s.src = url; s.async = false; s.defer = true; document.head.appendChild(s);
-        }
-        heatLoader(heatUrl+"preprocessor.min.js?sid=2785", "prep");
-        setTimeout(function() {
-        if(typeof _heatmap_paq !== "object" || _heatmap_paq.length == 0) {     
-            _heatmap_paq.push(["setTrackerUrl", heatUrl+"heatmap.php"]);
-            heatLoader(heatUrl+"heatmap-light.min.js?sid=2785", "heat");
-        }
-        }, 1000);
-    })();
-    </script>
-    <!-- End heatmap.com snippet Code -->
-    <style>
-        body {
-            background-image: url('background.jpg');
-            background-size: cover;
-            background-position: center;
-            background-attachment: fixed;
-            color: #333;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: flex-start;
-            padding-top: 20vh;
-        }
-        .container {
-            text-align: center;
-            background-color: rgba(255, 255, 255, 0.9);
-            padding: 3rem;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            max-width: 900px;
-            width: 90%;
-            margin-top: -5vh;
-            max-width: 800px;
-        }
-        h1 {
-            color: #2c3e50;
-            font-size: 2.5rem;
-        }
-        h1.title {
-            font-size: 3rem;
-            border-bottom: solid 1px #000;
-            color: #3498db;
-            font-family: 'Courier New', Courier, monospace;
-        }
-        p {
-            line-height: 1.6;
-            font-size: 1.1rem;
-        }
-        .contact-info {
-            margin-top: 2rem;
-        }
-        .contact-info p {
-            margin: 0.5rem 0;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-        .loader-container {
-            margin-top: 2rem;
-            max-width: 100%;
-            text-align: center;
-        }
-        .loader {
-            position: relative;
-            width: 100%;
-            height: 30px;
-            background-color: #e0e0e0;
-            border-radius: 15px;
-            overflow: hidden;
-        }
-        .loader-bar {
-            position: absolute;
-            height: 100%;
-            width: 80%; /* 80% progress */
-            background-color: #4caf50;
-            transition: width 0.5s ease-in-out;
-        }
-        .loader-text {
-            margin-top: 10px;
-            font-size: 16px;
-            color: #555;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1 class="title">EQUATOR COMMODITIES</h1>
-        <h1>Website Under Construction</h1>
-        <p>We're working hard to bring you an amazing website. Stay tuned!</p>
-        <div class="contact-info">
-            <!-- <p><strong>GPS Address:</strong> GA-247-7927</p> -->
-            <p><strong>Email:</strong> <a href="mailto:info@equatorcommoditiesgh.com">info@equatorcommoditiesgh.com</a></p>
-        </div>
-        <div class="loader-container">
-            <div class="loader">
-                <div class="loader-bar"></div>
+<?php include 'includes/header.php'; ?>
+
+
+<!-- trading-style-three -->
+<section class="trading-style-three pt_20 pb_20 alternat-2">
+    <div class="outer-container">
+        <ul class="trading-list">
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>#US30</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>Gold</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>BTCUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="lower">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-24"></i></div>
+                        <h6>USDJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPJPY</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+            <li class="upper">
+                <div class="trading-block-three">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-25"></i></div>
+                        <h6>GBPUSD</h6>
+                        <span>3125.71 / 3117.68</span>
+                        <a href="account-details.html" class="theme-btn btn-one">Trade</a>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+<!-- trading-style-three -->
+
+
+<!-- banner-style-five -->
+<section class="banner-style-five p_relative">
+    <div class="large-container">
+        <div class="banner-carousel owl-theme owl-carousel owl-nav-none owl-dots-none">
+            <div class="slide-item p_relative">
+                <div class="bg-layer" style="background-image: url(assets/images/banner/banner-4.jpg);"></div>
+                <div class="shape" style="background-image: url(assets/images/shape/shape-29.png);"></div>
+                <div class="inner-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div class="content-box">
+                                <h2>The A-Z of Forex Trading Proficiency</h2>
+                                <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
+                                <div class="btn-box">
+                                    <a href="account-details.html" class="theme-btn btn-one mr_15">Start Trading Now</a>
+                                    <a href="index-5.html" class="theme-btn btn-two">Try Demo Trading</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                            <div class="image-box ml_150">
+                                <figure class="image"><img src="assets/images/banner/banner-img-8.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="loader-text">Loading... 85%</div>
+            <div class="slide-item p_relative">
+                <div class="bg-layer" style="background-image: url(assets/images/banner/banner-5.jpg);"></div>
+                <div class="shape" style="background-image: url(assets/images/shape/shape-29.png);"></div>
+                <div class="inner-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div class="content-box">
+                                <h2>The A-Z of Forex Trading Proficiency</h2>
+                                <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
+                                <div class="btn-box">
+                                    <a href="account-details.html" class="theme-btn btn-one mr_15">Start Trading Now</a>
+                                    <a href="index-5.html" class="theme-btn btn-two">Try Demo Trading</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                            <div class="image-box ml_150">
+                                <figure class="image"><img src="assets/images/banner/banner-img-8.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item p_relative">
+                <div class="bg-layer" style="background-image: url(assets/images/banner/banner-6.jpg);"></div>
+                <div class="shape" style="background-image: url(assets/images/shape/shape-29.png);"></div>
+                <div class="inner-container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                            <div class="content-box">
+                                <h2>The A-Z of Forex Trading Proficiency</h2>
+                                <p>Our management team brings a wealth of experience to the day-to-day operations at Fortradex</p>
+                                <div class="btn-box">
+                                    <a href="account-details.html" class="theme-btn btn-one mr_15">Start Trading Now</a>
+                                    <a href="index-5.html" class="theme-btn btn-two">Try Demo Trading</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                            <div class="image-box ml_150">
+                                <figure class="image"><img src="assets/images/banner/banner-img-8.png" alt=""></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</body>
-</html>
+</section>
+<!-- banner-style-five end -->
+
+
+<!-- process-style-two -->
+<section class="process-style-two pt_80 pb_100">
+    <div class="auto-container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div class="image_block_one">
+                    <div class="image-box pr_130 mr_40 pl_150">
+                        <figure class="image image-1"><img src="assets/images/resource/mockup-4.png" alt=""></figure>
+                        <figure class="image image-2 p_absolute r_0 b_50"><img src="assets/images/resource/dashboard-4.png" alt=""></figure>
+                        <div class="content-one">
+                            <div class="shape" style="background-image: url(assets/images/shape/shape-30.png);"></div>
+                            <span>Sales</span>
+                            <h3>1.25 kk</h3>
+                            <p>Washington, D.C.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div class="content_block_seven">
+                    <div class="content-box">
+                        <div class="sec-title pb_50">
+                            <span class="sub-title mb_14">About US</span>
+                            <h2>Our reputation is built on <span>Experience</span></h2>
+                        </div>
+                        <ul class="accordion-box">
+                            <li class="accordion block active-block">
+                                <div class="acc-btn active">
+                                    <div class="icon-box"><i class="icon-29"></i></div>
+                                    <h3>Who we are</h3>
+                                </div>
+                                <div class="acc-content current">
+                                    <div class="content">
+                                        <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
+                                        <a href="faq.html">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion block">
+                                <div class="acc-btn">
+                                    <div class="icon-box"><i class="icon-29"></i></div>
+                                    <h3>What we do</h3>
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
+                                        <a href="faq.html">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="accordion block">
+                                <div class="acc-btn">
+                                    <div class="icon-box"><i class="icon-29"></i></div>
+                                    <h3>How it works</h3>
+                                </div>
+                                <div class="acc-content">
+                                    <div class="content">
+                                        <p>Facilitating international payments and foreign exchange transactions, issuing credit cards, and more.</p>
+                                        <a href="faq.html">Learn More</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- process-style-two end -->
+
+
+<!-- trading-style-six -->
+<section class="trading-style-six pb_100">
+    <div class="auto-container">
+        <div class="sec-title centred pb_60">
+            <span class="sub-title mb_14">Trade Now</span>
+            <h2>Market Spreads and Swaps</h2>
+        </div>
+        <div class="tabs-box">
+            <ul class="tab-btns tab-buttons mb_20 clearfix">
+                <li class="tab-btn active-btn" data-tab="#tab-1">Forex</li>
+                <li class="tab-btn" data-tab="#tab-2">Cryto CFDs</li>
+                <li class="tab-btn" data-tab="#tab-3">Share CFDs</li>
+                <li class="tab-btn" data-tab="#tab-4">Commondities</li>
+                <li class="tab-btn" data-tab="#tab-5">Spot Metals</li>
+                <li class="tab-btn" data-tab="#tab-6">Energies</li>
+                <li class="tab-btn" data-tab="#tab-7">Indices</li>
+            </ul>
+            <div class="tabs-content">
+                <div class="tab active-tab" id="tab-1">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="tab-2">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="tab-3">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="tab-4">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="tab-5">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="tab-6">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="tab" id="tab-7">
+                    <div class="table-outer">
+                        <ul class="table-content">
+                            <li class="table-title">
+                                <p>instrument</p>
+                                <p><span class="mr_80">sellers</span><span>Buyers</span></p>
+                                <p></p>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-3.png" alt=""></div>
+                                    <h6>Euro</h6>
+                                    <span>Adyen: xams . EUR</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="32%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">32%</span>
+                                        <span class="buyers">68%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-5.png" alt=""></div>
+                                    <h6>Pound</h6>
+                                    <span>Adyen: xams . GBP</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="55%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">55%</span>
+                                        <span class="buyers">45%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-7.png" alt=""></div>
+                                    <h6>CAD</h6>
+                                    <span>Adyen: xams . CAD</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="50%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">50%</span>
+                                        <span class="buyers">50%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-9.png" alt=""></div>
+                                    <h6>Riyal</h6>
+                                    <span>Adyen: xams . RYL</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="30%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">30%</span>
+                                        <span class="buyers">70%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                            <li class="table-data">
+                                <div class="single-item">
+                                    <div class="flag"><img src="assets/images/icons/flag-1.png" alt=""></div>
+                                    <h6>Aud</h6>
+                                    <span>Adyen: xams . Aud</span>
+                                </div>
+                                <div class="progress-box">
+                                    <div class="bar">
+                                        <div class="bar-inner count-bar" data-percent="60%"></div>
+                                    </div>
+                                    <div class="text-box">
+                                        <span class="sellers">60%</span>
+                                        <span class="buyers">40%</span>
+                                    </div>
+                                </div>
+                                <div class="btn-box">
+                                    <a href="account-details.html">Trade</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- trading-style-six end -->
+
+
+<!-- about-style-two -->
+<section class="about-style-two dark-section pt_140 pb_140">
+    <div class="pattern-layer">
+        <div class="pattern-1" style="background-image: url(assets/images/shape/shape-31.png);"></div>
+        <div class="pattern-2" style="background-image: url(assets/images/shape/shape-32.png);"></div>
+    </div>
+    <div class="auto-container">
+        <div class="sec-title pb_60 light centred">
+            <span class="sub-title mb_14">Platforms</span>
+            <h2>Trading Platforms</h2>
+        </div>
+        <div class="tabs-box">
+            <div class="row clearfix">
+                <div class="col-lg-5 col-md-12 col-sm-12 btn-column">
+                    <ul class="tab-btns tab-buttons clearfix">
+                        <li class="tab-btn active-btn" data-tab="#tab-8">FXT Application <i class="icon-26"></i></li>
+                        <li class="tab-btn" data-tab="#tab-9">Meta Trader 4 <i class="icon-26"></i></li>
+                        <li class="tab-btn" data-tab="#tab-10">FBS Personal Area <i class="icon-26"></i></li>
+                        <li class="tab-btn" data-tab="#tab-11">Meta Trader 5 <i class="icon-26"></i></li>
+                    </ul>
+                </div>
+                <div class="col-lg-7 col-md-12 col-sm-12 content-column">
+                    <div class="tabs-content">
+                        <div class="tab active-tab" id="tab-8">
+                            <div class="content-box">
+                                <h2>FXT App</h2>
+                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                <figure class="image-box"><a href="assets/images/resource/dashboard-1.png" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt=""></a></figure>
+                            </div>
+                        </div>
+                        <div class="tab" id="tab-9">
+                            <div class="content-box">
+                                <h2>Meta Trader 4</h2>
+                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                <figure class="image-box"><a href="assets/images/resource/dashboard-1.png" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt=""></a></figure>
+                            </div>
+                        </div>
+                        <div class="tab" id="tab-10">
+                            <div class="content-box">
+                                <h2>FBS Personal Area</h2>
+                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                <figure class="image-box"><a href="assets/images/resource/dashboard-1.png" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt=""></a></figure>
+                            </div>
+                        </div>
+                        <div class="tab" id="tab-11">
+                            <div class="content-box">
+                                <h2>Meta Trader 5</h2>
+                                <p>Navigate the financial waves with FXT’s premier trading app, designed to put the power of the markets in your palm.</p>
+                                <figure class="image-box"><a href="assets/images/resource/dashboard-1.png" class="lightbox-image" data-fancybox="gallery"><img src="assets/images/resource/dashboard-1.png" alt=""></a></figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- about-style-two end -->
+
+
+<!-- account-style-two -->
+<section class="account-style-two clear-bg centred pt_80 pb_70">
+    <div class="auto-container">
+        <div class="sec-title pb_50">
+            <span class="sub-title mb_14">Accounts</span>
+            <h2>Trading Account</h2>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-3 col-md-6 col-sm-12 account-block">
+                <div class="account-block-two wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-16"></i></div>
+                        <h3><a href="account-details.html">Professional Account</a></h3>
+                        <p>Traders with professional accounts gain access to a wide</p>
+                        <div class="btn-box"><a href="account-details.html" class="theme-btn btn-one">Create Account</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 account-block">
+                <div class="account-block-two wow fadeInUp animated" data-wow-delay="200ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-17"></i></div>
+                        <h3><a href="account-details.html">Overview Account</a></h3>
+                        <p>The primary feature of a trading overview account is its ability to</p>
+                        <div class="btn-box"><a href="account-details.html" class="theme-btn btn-one">Create Account</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 account-block">
+                <div class="account-block-two wow fadeInUp animated" data-wow-delay="400ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-18"></i></div>
+                        <h3><a href="account-details.html">Demo Account</a></h3>
+                        <p>Trading demo accounts are particularly valuable for novice</p>
+                        <div class="btn-box"><a href="account-details.html" class="theme-btn btn-one">Create Account</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 account-block">
+                <div class="account-block-two wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
+                    <div class="inner-box">
+                        <div class="icon-box"><i class="icon-19"></i></div>
+                        <h3><a href="account-details.html">Islamic Account</a></h3>
+                        <p>Islamic accounts also adhere to ethical guidelines that prohibit</p>
+                        <div class="btn-box"><a href="account-details.html" class="theme-btn btn-one">Create Account</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- account-style-two end -->
+
+
+<!-- apps-style-two -->
+<section class="apps-style-two pt_80 pb_80">
+    <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-10.png);"></div>
+    <div class="auto-container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-md-12 col-sm-12 image-column">
+                <div class="image-box">
+                    <figure class="image"><img src="assets/images/resource/apps-1.png" alt=""></figure>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-12 col-sm-12 content-column">
+                <div class="content_block_four">
+                    <div class="content-box ml_80">
+                        <div class="sec-title light pb_40">
+                            <span class="sub-title mb_14">Download App</span>
+                            <h2>Download Trading App</h2>
+                            <p>We use cookines to understand how you use our website and to give you the best possible experience.</p>
+                        </div>
+                        <div class="btn-box">
+                            <a href="about.html" class="apple-store">
+                                <img src="assets/images/icons/icon-7.png" alt="">
+                                <span>Download on</span>
+                                App Store
+                            </a>
+                            <a href="about.html" class="play-store">
+                                <img src="assets/images/icons/icon-8.png" alt="">
+                                <span>Get it on</span>
+                                Google Play
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- apps-style-two end -->
+
+
+<!-- award-section -->
+<section class="award-section pt_100 pb_100">
+    <div class="auto-container">
+        <div class="sec-title centred pb_60">
+            <span class="sub-title mb_14">AWARDED BY THE BEST</span>
+            <h2>Globally Awarded</h2>
+        </div>
+        <div class="table-outer">
+            <table class="award-table">
+                <tbody>
+                    <tr>
+                        <td>01</td>
+                        <td>
+                            <h3><a href="index.html">The Best Trading Platform, UK</a></h3>
+                        </td>
+                        <td><span>x1</span></td>
+                        <td>
+                            <figure class="image-box"><a href="index.html"><img src="assets/images/icons/award-1.png" alt=""></a></figure>
+                        </td>
+                        <td>2023</td>
+                    </tr>
+                    <tr>
+                        <td>02</td>
+                        <td>
+                            <h3><a href="index.html">Awards Interior Excellence</a></h3>
+                        </td>
+                        <td><span>x3</span></td>
+                        <td>
+                            <figure class="image-box"><a href="index.html"><img src="assets/images/icons/award-2.png" alt=""></a></figure>
+                        </td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>
+                            <h3><a href="index.html">The Best Trading Platform, UK</a></h3>
+                        </td>
+                        <td><span>x4</span></td>
+                        <td>
+                            <figure class="image-box"><a href="index.html"><img src="assets/images/icons/award-3.png" alt=""></a></figure>
+                        </td>
+                        <td>2022</td>
+                    </tr>
+                    <tr>
+                        <td>04</td>
+                        <td>
+                            <h3><a href="index.html">Advance HighTechnology Trade</a></h3>
+                        </td>
+                        <td><span>x3</span></td>
+                        <td>
+                            <figure class="image-box"><a href="index.html"><img src="assets/images/icons/award-4.png" alt=""></a></figure>
+                        </td>
+                        <td>2014</td>
+                    </tr>
+                    <tr>
+                        <td>05</td>
+                        <td>
+                            <h3><a href="index.html">The Best Trading Platform, London</a></h3>
+                        </td>
+                        <td><span>x4</span></td>
+                        <td>
+                            <figure class="image-box"><a href="index.html"><img src="assets/images/icons/award-5.png" alt=""></a></figure>
+                        </td>
+                        <td>2018</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+<!-- award-section end -->
+
+
+<!-- experience-style-two -->
+<section class="experience-style-two">
+    <div class="auto-container">
+        <div class="inner-container">
+            <div class="shape" style="background-image: url(assets/images/shape/shape-33.png);"></div>
+            <div class="upper-box p_relative mb_55">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 title-column">
+                        <div class="sec-title">
+                            <span class="sub-title mb_14">Experience</span>
+                            <h2>Your trades in the right place</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12 text-column">
+                        <div class="text-box">
+                            <p>We use cookines to understand how you use our website and to give you the best possible</p>
+                            <a href="account-details.html" class="theme-btn btn-one">Start Trading Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="lower-box">
+                <div class="row clearfix">
+                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
+                        <div class="single-item">
+                            <h2>1 milion+</h2>
+                            <p>XTB Group Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
+                        <div class="single-item">
+                            <h2>5 milion+</h2>
+                            <p>App downloads</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
+                        <div class="single-item">
+                            <h2>18+</h2>
+                            <p>Years on the market</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12 single-column">
+                        <div class="single-item">
+                            <h2>FSC</h2>
+                            <p>Regulated by authorities</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- experience-style-two end -->
+
+
+<!-- testimonial-style-two -->
+<section class="testimonial-style-two pt_100 pb_70">
+    <div class="auto-container">
+        <div class="sec-title centred pb_60">
+            <span class="sub-title mb_14">Testimonials</span>
+            <h2>Love from Users</h2>
+        </div>
+        <div class="row clearfix">
+            <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
+                <div class="testimonial-block-one">
+                    <div class="inner-box">
+                        <figure class="clients-logo"><a href="index-5.html"><img src="assets/images/clients/clients-14.png" alt=""></a></figure>
+                        <ul class="rating">
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
+                        <div class="author-box">
+                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-4.png" alt=""></figure>
+                            <h4>Brooklyn Simmons</h4>
+                            <span class="designation">Nursing Assistant</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
+                <div class="testimonial-block-one">
+                    <div class="inner-box">
+                        <figure class="clients-logo"><a href="index-5.html"><img src="assets/images/clients/clients-15.png" alt=""></a></figure>
+                        <ul class="rating">
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
+                        <div class="author-box">
+                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-5.png" alt=""></figure>
+                            <h4>Guy Hawkins</h4>
+                            <span class="designation">Web Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 testimonial-block">
+                <div class="testimonial-block-one">
+                    <div class="inner-box">
+                        <figure class="clients-logo"><a href="index-5.html"><img src="assets/images/clients/clients-16.png" alt=""></a></figure>
+                        <ul class="rating">
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                            <li><i class="icon-37"></i></li>
+                        </ul>
+                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
+                        <div class="author-box">
+                            <figure class="author-thumb"><img src="assets/images/resource/testimonial-6.png" alt=""></figure>
+                            <h4>Esther Howard</h4>
+                            <span class="designation">President of Sales</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- testimonial-style-two end -->
+
+
+<!-- subscribe-section -->
+<section class="subscribe-section">
+    <div class="bg-color"></div>
+    <div class="auto-container">
+        <div class="inner-container">
+            <div class="shape" style="background-image: url(assets/images/shape/shape-5.png);"></div>
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-column">
+                    <div class="text-box">
+                        <h2>Subscribe for latest update</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 col-sm-12 form-column">
+                    <div class="form-inner">
+                        <form method="post" action="https://azim.hostlin.com/Fortradex/contact.html">
+                            <div class="form-group">
+                                <input type="email" name="email" placeholder="Email Address" required>
+                                <button type="submit" class="theme-btn btn-one">Subscribe<i class="icon-26"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- subscribe-section end -->
+
+
+<?php include 'includes/footer.php'; ?>
