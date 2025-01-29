@@ -12,7 +12,7 @@ $blogDetailsPage = true;
         <div class="content-box">
             <h1>Book Details</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Book Details</li>
             </ul>
         </div>

@@ -12,7 +12,7 @@ $blogPage = true;
         <div class="content-box">
             <h1>Education</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Education</li>
             </ul>
         </div>

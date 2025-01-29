@@ -21,7 +21,7 @@
     <div class="footer-bottom text-center">
         <div class="auto-container text-center">
             <div>
-                <p>Copyright &copy; 2024 - <?= date('Y'); ?> <a href="index.php"><?php echo $websiteName; ?></a>. All rights reserved.</p>
+                <p>Copyright &copy; 2024 - <?= date('Y'); ?> <a href="/"><?php echo $websiteName; ?></a>. All rights reserved.</p>
             </div>
         </div>
     </div>

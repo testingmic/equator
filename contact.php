@@ -18,7 +18,7 @@ $contactPage = true;
         <div class="content-box">
             <h1>Contact Us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Contact Us</li>
             </ul>
         </div>

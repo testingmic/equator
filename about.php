@@ -22,7 +22,7 @@ $aboutPage = true;
         <div class="content-box">
             <h1>About Us</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>About Us</li>
             </ul>
         </div>

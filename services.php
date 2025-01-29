@@ -12,7 +12,7 @@ $servicesPage = true;
         <div class="content-box">
             <h1>Products and Services</h1>
             <ul class="bread-crumb clearfix">
-                <li><a href="index.php">Home</a></li>
+                <li><a href="/">Home</a></li>
                 <li>Products and Services</li>
             </ul>
 

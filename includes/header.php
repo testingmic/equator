@@ -155,7 +155,7 @@ $websiteName = "Equator Commodities";
             <div class="header-lower">
                 <div class="large-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="/"><img src="assets/images/logo.png" alt=""></a></figure>
                         <div class="menu-area">
                             <!--Mobile Navigation Toggler-->
                             <div class="mobile-nav-toggler">
@@ -166,7 +166,7 @@ $websiteName = "Equator Commodities";
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="<?= !empty($homePage) ? 'current' : '' ?> dropdown"><a href="index.php">Home</a></li>
+                                        <li class="<?= !empty($homePage) ? 'current' : '' ?> dropdown"><a href="/">Home</a></li>
                                         <li class="<?= !empty($aboutPage) ? 'current' : '' ?> dropdown"><a href="about.php">About Us</a></li>
                                         <li class="<?= !empty($servicesPage) ? 'current' : '' ?> dropdown"><a href="services.php">Services</a></li>
                                         <!-- <li class="<?= !empty($blogPage) ? 'current' : '' ?> dropdown"><a href="blog.php">Blog</a></li> -->
@@ -185,7 +185,7 @@ $websiteName = "Equator Commodities";
             <div class="sticky-header">
                 <div class="large-container">
                     <div class="outer-box">
-                        <figure class="logo-box"><a href="index.php"><img src="assets/images/logo.png" alt=""></a></figure>
+                        <figure class="logo-box"><a href="/"><img src="assets/images/logo.png" alt=""></a></figure>
                         <div class="menu-area">
                             <nav class="main-menu clearfix">
                             </nav>
@@ -204,7 +204,7 @@ $websiteName = "Equator Commodities";
             <div class="menu-backdrop"></div>
             <div class="close-btn"><i class="fas fa-times"></i></div>
             <nav class="menu-box">
-                <div class="nav-logo"><a href="index.php"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
+                <div class="nav-logo"><a href="/"><img src="assets/images/logo-2.png" alt="" title=""></a></div>
                 <div class="menu-outer"><!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
                 <div class="contact-info">
                     <h4>Contact Info</h4>
