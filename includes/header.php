@@ -43,11 +43,20 @@ $websiteName = "Equator Commodities";
     <link href="assets/css/module-css/account.css" rel="stylesheet">
     <link href="assets/css/module-css/apps.css" rel="stylesheet">
     <link href="assets/css/module-css/award.css" rel="stylesheet">
+    <link href="assets/css/module-css/pricing.css" rel="stylesheet">
     <link href="assets/css/module-css/experience.css" rel="stylesheet">
     <link href="assets/css/module-css/testimonial.css" rel="stylesheet">
     <link href="assets/css/module-css/subscribe.css" rel="stylesheet">
     <link href="assets/css/module-css/footer.css" rel="stylesheet">
     <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/module-css/contact.css" rel="stylesheet">
+    <link href="assets/css/module-css/page-title.css" rel="stylesheet">
+    <link href="assets/css/module-css/funfact.css" rel="stylesheet">
+    <link href="assets/css/module-css/cta.css" rel="stylesheet">
+    <link href="assets/css/module-css/faq.css" rel="stylesheet">
+    <link href="assets/css/module-css/team.css" rel="stylesheet">
+    <link href="assets/css/module-css/news.css" rel="stylesheet">
+    <link href="assets/css/module-css/education-details.css" rel="stylesheet">
 
 </head>
 
@@ -109,23 +118,12 @@ $websiteName = "Equator Commodities";
                         <div class="option-block">
                             <div class="support-box">
                                 <div class="icon-box"><i class="icon-07"></i></div>
-                                <a href="tel:912345678">91 2345 678</a>
+                                <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a>
                             </div>
-                            <div class="language-picker js-language-picker ml_40" data-trigger-class="btn btn--subtle">
-                                <form action="https://azim.hostlin.com/Fortradex/index-2.html" class="language-picker__form">
-                                    <label for="language-picker-select">Select your language</label>
-                                    <select name="language-picker-select" id="language-picker-select">
-                                        <option lang="de" value="deutsch"></option>
-                                        <option lang="en" value="english" selected></option>
-                                        <option lang="fr" value="francais"></option>
-                                        <option lang="it" value="italiano"></option>
-                                    </select>
-                                </form>
-                            </div>
+                            
                         </div>
                         <ul class="info-list clearfix">
-                            <li><i class="icon-28"></i><span>£20 Discount</span> & Get 24/7 Free Assistance</li>
-                            <li><i class="icon-27"></i>Free Trading Guides</li>
+                            <li><i class="icon-27"></i>Get 24/7 Free Assistance</li>
                         </ul>
                     </div>
                 </div>
@@ -145,11 +143,11 @@ $websiteName = "Equator Commodities";
                             <nav class="main-menu navbar-expand-md navbar-light clearfix">
                                 <div class="collapse navbar-collapse show clearfix" id="navbarSupportedContent">
                                     <ul class="navigation clearfix">
-                                        <li class="dropdown"><a href="index.php">Home</a></li>
-                                        <li class="dropdown"><a href="about.php">About Us</a></li>
-                                        <li class="dropdown"><a href="services.php">Services</a></li>
-                                        <li class="dropdown"><a href="blog.php">Blog</a></li>
-                                        <li class="dropdown"><a href="contact.php">Contact Us</a></li>
+                                        <li class="<?= !empty($homePage) ? 'current' : '' ?> dropdown"><a href="index.php">Home</a></li>
+                                        <li class="<?= !empty($aboutPage) ? 'current' : '' ?> dropdown"><a href="about.php">About Us</a></li>
+                                        <li class="<?= !empty($servicesPage) ? 'current' : '' ?> dropdown"><a href="services.php">Services</a></li>
+                                        <li class="<?= !empty($blogPage) ? 'current' : '' ?> dropdown"><a href="blog.php">Blog</a></li>
+                                        <li class="<?= !empty($contactPage) ? 'current' : '' ?> dropdown"><a href="contact.php">Contact Us</a></li>
                                     </ul>
                                 </div>
                             </nav>

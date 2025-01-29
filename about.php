@@ -1,7 +1,12 @@
+<?php 
+global $aboutPage;
+$aboutPage = true; 
+?>
 <?php include 'includes/header.php'; ?>
 
 <!-- page-title -->
 <section class="page-title centred pt_90 pb_0">
+
     <div class="pattern-layer rotate-me" style="background-image: url(assets/images/shape/shape-34.png);"></div>
     <div class="auto-container">
         <div class="content-box">
@@ -87,62 +92,6 @@
 <!-- about-style-three end -->
 
 
-<!-- funfact-style-two -->
-<section class="funfact-style-two centred pb_100">
-    <div class="auto-container">
-        <div class="inner-container">
-            <div class="row clearfix">
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="funfact-block-two">
-                        <div class="shape" style="background-image: url(assets/images/shape/shape-8.png);"></div>
-                        <div class="inner-box">
-                            <div class="count-outer">
-                                <span class="odometer" data-count="10">00</span><span>k</span>
-                            </div>
-                            <p>Client World Wide</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="funfact-block-two">
-                        <div class="shape" style="background-image: url(assets/images/shape/shape-8.png);"></div>
-                        <div class="inner-box">
-                            <div class="count-outer">
-                                <span class="odometer" data-count="99">00</span><span>%</span>
-                            </div>
-                            <p>Satisfied Clients</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="funfact-block-two">
-                        <div class="shape" style="background-image: url(assets/images/shape/shape-8.png);"></div>
-                        <div class="inner-box">
-                            <div class="count-outer">
-                                <span class="odometer" data-count="150">00</span>m+
-                            </div>
-                            <p>Money Invested</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 col-sm-12 funfact-block">
-                    <div class="funfact-block-two">
-                        <div class="shape" style="background-image: url(assets/images/shape/shape-8.png);"></div>
-                        <div class="inner-box">
-                            <div class="count-outer">
-                                <span class="odometer" data-count="800">00</span><span>+</span>
-                            </div>
-                            <p>Expert Traders</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- funfact-style-two end -->
-
-
 <!-- cta-section -->
 <section class="cta-section">
     <div class="auto-container">
@@ -224,116 +173,6 @@
 <!-- account-style-three end -->
 
 
-<!-- team-section -->
-<section class="team-section pt_0 pb_70">
-    <div class="auto-container">
-        <div class="sec-title pb_60 centred">
-            <span class="sub-title mb_14">Our expert team</span>
-            <h2>Our Talented Team Member</h2>
-        </div>
-        <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/team/team-1.jpg" alt=""></figure>
-                        <div class="content-box">
-                            <h3><a href="team-details.html">Olivia Quinn</a></h3>
-                            <span class="designation">Forex Trader</span>
-                            <ul class="social-links">
-                                <li><a href="team.html"><i class="icon-13"></i></a></li>
-                                <li><a href="team.html"><i class="icon-15"></i></a></li>
-                                <li><a href="team.html"><i class="icon-14"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/team/team-2.jpg" alt=""></figure>
-                        <div class="content-box">
-                            <h3><a href="team-details.html">Nathan Hayes</a></h3>
-                            <span class="designation">Consultant</span>
-                            <ul class="social-links">
-                                <li><a href="team.html"><i class="icon-13"></i></a></li>
-                                <li><a href="team.html"><i class="icon-15"></i></a></li>
-                                <li><a href="team.html"><i class="icon-14"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/team/team-3.jpg" alt=""></figure>
-                        <div class="content-box">
-                            <h3><a href="team-details.html">Ava Jensen</a></h3>
-                            <span class="designation">Trading Assistant</span>
-                            <ul class="social-links">
-                                <li><a href="team.html"><i class="icon-13"></i></a></li>
-                                <li><a href="team.html"><i class="icon-15"></i></a></li>
-                                <li><a href="team.html"><i class="icon-14"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/team/team-4.jpg" alt=""></figure>
-                        <div class="content-box">
-                            <h3><a href="team-details.html">Sophia Knight</a></h3>
-                            <span class="designation">President of Trade</span>
-                            <ul class="social-links">
-                                <li><a href="team.html"><i class="icon-13"></i></a></li>
-                                <li><a href="team.html"><i class="icon-15"></i></a></li>
-                                <li><a href="team.html"><i class="icon-14"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/team/team-5.jpg" alt=""></figure>
-                        <div class="content-box">
-                            <h3><a href="team-details.html">Ethan brooks</a></h3>
-                            <span class="designation">Marketing Coordinator</span>
-                            <ul class="social-links">
-                                <li><a href="team.html"><i class="icon-13"></i></a></li>
-                                <li><a href="team.html"><i class="icon-15"></i></a></li>
-                                <li><a href="team.html"><i class="icon-14"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 team-block">
-                <div class="team-block-one">
-                    <div class="inner-box">
-                        <figure class="image-box"><img src="assets/images/team/team-6.jpg" alt=""></figure>
-                        <div class="content-box">
-                            <h3><a href="team-details.html">Aronic kehan</a></h3>
-                            <span class="designation">Business Assistant</span>
-                            <ul class="social-links">
-                                <li><a href="team.html"><i class="icon-13"></i></a></li>
-                                <li><a href="team.html"><i class="icon-15"></i></a></li>
-                                <li><a href="team.html"><i class="icon-14"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- team-section end -->
-
-
 <!-- apps-style-two -->
 <section class="apps-style-two pt_150 pb_150">
     <div class="pattern-layer" style="background-image: url(assets/images/shape/shape-18.png);"></div>
@@ -411,62 +250,6 @@
     </div>
 </section>
 <!-- testimonial-section end -->
-
-
-<!-- news-section -->
-<section class="news-section pt_0 pb_70">
-    <div class="auto-container">
-        <div class="sec-title centred pb_60">
-            <span class="sub-title mb_14">Media Center</span>
-            <h2>Latest News Update</h2>
-        </div>
-        <div class="row clearfix">
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated" data-wow-delay="00ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <span class="post-date">20TH April, 2024</span>
-                        <h3><a href="blog-details.html">USD/JPY Stages the more upsides can Bulls Aim for 160x Bonus?</a></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
-                        <div class="link"><a href="blog-details.html">Read More</a></div>
-                    </div>
-                    <div class="author-box">
-                        <figure class="author-thumb"><img src="assets/images/resource/testimonial-1.png" alt=""></figure>
-                        <span>Daniel Marcon</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated" data-wow-delay="300ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <span class="post-date">19TH April, 2024</span>
-                        <h3><a href="blog-details.html">Nemo's Eurovision win fires up Swiss advocates for non-binary rights</a></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
-                        <div class="link"><a href="blog-details.html">Read More</a></div>
-                    </div>
-                    <div class="author-box">
-                        <figure class="author-thumb"><img src="assets/images/resource/testimonial-2.png" alt=""></figure>
-                        <span>Robert Henry</span>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 news-block">
-                <div class="news-block-one wow fadeInUp animated" data-wow-delay="600ms" data-wow-duration="1500ms">
-                    <div class="inner-box">
-                        <span class="post-date">18TH April, 2024</span>
-                        <h3><a href="blog-details.html">Wall St Week Ahead-Earnings bolster US stocks but crucial inflation report looms</a></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipiscing elit. Curaitur in euismod odio gravida gravida. Discovery of the text's origin is attributed</p>
-                        <div class="link"><a href="blog-details.html">Read More</a></div>
-                    </div>
-                    <div class="author-box">
-                        <figure class="author-thumb"><img src="assets/images/resource/testimonial-3.png" alt=""></figure>
-                        <span>Victor Classic</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- news-section end -->
 
 
 <!-- subscribe-section -->

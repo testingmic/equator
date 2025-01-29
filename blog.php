@@ -1,7 +1,12 @@
+<?php 
+global $blogPage;
+$blogPage = true; 
+?>
 <?php include 'includes/header.php'; ?>
 
 <!-- page-title -->
 <section class="page-title centred pt_90 pb_0">
+
     <div class="pattern-layer rotate-me" style="background-image: url(assets/images/shape/shape-34.png);"></div>
     <div class="auto-container">
         <div class="content-box">
@@ -340,6 +345,5 @@
     </div>
 </section>
 <!-- subscribe-section end -->
-
 
 <?php include 'includes/footer.php'; ?>

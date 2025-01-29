@@ -1,3 +1,7 @@
+<?php 
+global $servicesPage;
+$servicesPage = true; 
+?>
 <?php include 'includes/header.php'; ?>
 
 <!-- page-title -->

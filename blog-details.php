@@ -1,7 +1,12 @@
+<?php 
+global $blogDetailsPage;
+$blogDetailsPage = true; 
+?>
 <?php include 'includes/header.php'; ?>
 
 <!-- page-title -->
 <section class="page-title centred pt_90 pb_0">
+
     <div class="pattern-layer rotate-me" style="background-image: url(assets/images/shape/shape-34.png);"></div>
     <div class="auto-container">
         <div class="content-box">
