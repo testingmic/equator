@@ -31,9 +31,13 @@ $servicesPage = true;
                 <div class="bg-white p-3" style="margin-bottom: 20px;">
                     <p>Our core activity is the purchase of high-quality cocoa beans and their delivery to the Take Over Centres of the Cocoa Marketing Company (CMC), the authorized department of the Ghana Cocoa Board. Through our expertise and industry connections, we facilitate efficient cocoa trading, ensuring that both local and international markets receive premium-grade cocoa.</p>
                 </div>
+                <div class="bg-white p-3">
+                    <img src="assets/images/cocoa-beans.jpg" alt="">
+                </div>
             </div>
             <div class="col-md-8">
                 <div>
+
                     <ul class="accordion-box">
                         <?php foreach (products_and_services_content() as $service) { ?>
                             <li class="accordion block active-block">
