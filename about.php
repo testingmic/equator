@@ -5,6 +5,15 @@ $aboutPage = true;
 <?php include 'includes/header.php'; ?>
 <?php include 'includes/content.php'; ?>
 
+<style>
+    .cocoa-image img {
+        border-radius: 10px;
+    }
+    .cta-section .inner-container .icon-box img {
+        max-width: 250px;
+    }
+</style>
+
 <!-- page-title -->
 <section class="page-title centred pt_90 pb_0">
 
@@ -40,12 +49,10 @@ $aboutPage = true;
             <div class="col-lg-6 col-md-12 col-sm-12 video-column">
                 <div class="video_block_one">
                     <div class="video-box z_1 p_relative ml_50 centred">
-                        <figure class="image-box"><img src="assets/images/resource/video-1.png" alt=""></figure>
+                        <figure class="image-box cocoa-image">
+                            <img src="assets/images/cocoa-beans.jpg" alt="">
+                        </figure>
                         <div class="video-content">
-                            <div class="curve-text">
-                                <span class="curved-circle">watch&nbsp;&nbsp;the&nbsp;&nbsp;video&nbsp;&nbsp;right&nbsp;&nbsp;now&nbsp;&nbsp;</span>
-                            </div>
-                            <a href="https://www.youtube.com/watch?v=nfP5N9Yc72A&amp;t=28s" class="lightbox-image video-btn" data-caption=""><i class="icon-11"></i></a>
                         </div>
                     </div>
                 </div>
@@ -61,7 +68,7 @@ $aboutPage = true;
     <div class="auto-container">
         <div class="inner-container">
             <div class="shape" style="background-image: url(assets/images/shape/shape-16.png);"></div>
-            <div class="icon-box"><img src="assets/images/icons/coin-1.png" alt=""></div>
+            <div class="icon-box"><img src="assets/images/round-cocoa.jpg" alt=""></div>
             <h2><span>Trade for</span> less, <span>with</span> low prices <br /><span>and</span> transparent fees</h2>
         </div>
     </div>
@@ -124,7 +131,6 @@ $aboutPage = true;
                                 <li>Seamlessly manage your account and portfolio</li>
                                 <li>Stay ahead with real-time charts and indicators</li>
                             </ul>
-                            <a href="index-3.html" class="theme-btn btn-one">Create Account</a>
                         </div>
                     </div>
                 </div>

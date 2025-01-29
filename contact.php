@@ -57,7 +57,7 @@ $contactPage = true;
             </div>
         </div>
         <div class="form-inner pb_70">
-            <form method="post" action="https://azim.hostlin.com/Fortradex/sendemail.php" id="contact-form">
+            <form method="post" action="contact.php" id="contact-form">
                 <div class="row clearfix">
                     <div class="col-lg-6 col-md-6 col-sm-12 form-group">
                         <label>Your Name <span>*</span></label>

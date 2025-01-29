@@ -123,7 +123,7 @@ $websiteName = "Equator Commodities";
                             
                         </div>
                         <ul class="info-list clearfix">
-                            <li><i class="icon-27"></i>Get 24/7 Free Assistance</li>
+                            <li><i class="icon-27"></i><?= $address ?></li>
                         </ul>
                     </div>
                 </div>
